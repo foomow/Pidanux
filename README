@@ -1,3 +1,20 @@
+
+Pidanux kernel
+============
+
+This is a kernel base on Linux kernel for RETRO MINI(RS-90) handheld console exclusively.
+The console's details infomation provided by manufacturer is here:
+
+http://www.ylmchina.com/en/product.asp?id=1,1,17,105
+
+I removed a lot of unnecessary things to make codes simple and small.
+And config file is ready as pidanux.config.
+
+Just enjoy.
+
+Mao
+2020.11
+
 Linux kernel
 ============
 
