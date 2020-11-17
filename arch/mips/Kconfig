@@ -1031,28 +1031,28 @@ config NLM_XLP_BOARD
 
 endchoice
 
-source "arch/mips/alchemy/Kconfig"
-source "arch/mips/ath25/Kconfig"
-source "arch/mips/ath79/Kconfig"
-source "arch/mips/bcm47xx/Kconfig"
-source "arch/mips/bcm63xx/Kconfig"
-source "arch/mips/bmips/Kconfig"
+#source "arch/mips/alchemy/Kconfig"
+#source "arch/mips/ath25/Kconfig"
+#source "arch/mips/ath79/Kconfig"
+#source "arch/mips/bcm47xx/Kconfig"
+#source "arch/mips/bcm63xx/Kconfig"
+#source "arch/mips/bmips/Kconfig"
 source "arch/mips/generic/Kconfig"
 source "arch/mips/ingenic/Kconfig"
-source "arch/mips/jazz/Kconfig"
-source "arch/mips/lantiq/Kconfig"
-source "arch/mips/pic32/Kconfig"
-source "arch/mips/pistachio/Kconfig"
-source "arch/mips/ralink/Kconfig"
-source "arch/mips/sgi-ip27/Kconfig"
-source "arch/mips/sibyte/Kconfig"
-source "arch/mips/txx9/Kconfig"
-source "arch/mips/vr41xx/Kconfig"
-source "arch/mips/cavium-octeon/Kconfig"
-source "arch/mips/loongson2ef/Kconfig"
-source "arch/mips/loongson32/Kconfig"
-source "arch/mips/loongson64/Kconfig"
-source "arch/mips/netlogic/Kconfig"
+#source "arch/mips/jazz/Kconfig"
+#source "arch/mips/lantiq/Kconfig"
+#source "arch/mips/pic32/Kconfig"
+#source "arch/mips/pistachio/Kconfig"
+#source "arch/mips/ralink/Kconfig"
+#source "arch/mips/sgi-ip27/Kconfig"
+#source "arch/mips/sibyte/Kconfig"
+#source "arch/mips/txx9/Kconfig"
+#source "arch/mips/vr41xx/Kconfig"
+#source "arch/mips/cavium-octeon/Kconfig"
+#source "arch/mips/loongson2ef/Kconfig"
+#source "arch/mips/loongson32/Kconfig"
+#source "arch/mips/loongson64/Kconfig"
+#source "arch/mips/netlogic/Kconfig"
 
 endmenu
 
@@ -3321,12 +3321,12 @@ if CPU_SUPPORTS_CPUFREQ && MIPS_EXTERNAL_TIMER
 source "drivers/cpufreq/Kconfig"
 endif
 
-source "drivers/cpuidle/Kconfig"
+#source "drivers/cpuidle/Kconfig"
 
 endmenu
 
 source "drivers/firmware/Kconfig"
 
-source "arch/mips/kvm/Kconfig"
+#source "arch/mips/kvm/Kconfig"
 
-source "arch/mips/vdso/Kconfig"
+#source "arch/mips/vdso/Kconfig"

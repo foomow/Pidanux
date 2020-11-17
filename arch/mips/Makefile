@@ -242,7 +242,7 @@ endif
 
 entry-y				= $(shell $(objtree)/arch/mips/tools/elf-entry vmlinux)
 cflags-y			+= -I$(srctree)/arch/mips/include/asm/mach-generic
-drivers-$(CONFIG_PCI)		+= arch/mips/pci/
+#drivers-$(CONFIG_PCI)		+= arch/mips/pci/
 
 #
 # Automatically detect the build format. By default we choose
